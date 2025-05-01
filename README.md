@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Julio Jacho  
+**Fecha:** 30/04/2025
 
 ---
 
@@ -37,9 +37,19 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
-
+- git clone= Nos permite clonar cluaquier repositorio ya sea mendiante hhtps y ssh
+sintaxis= git clone <url del proyecto>
+- fork= Crea una copia del repositorio en tu cuenta de GitHub, manteniéndola enlazada al repositorio original.
+- git pull= Actualiza tu repositorio local trayendo los cambios más recientes del repositorio remoto y fusionándolos con tu rama actual.
+- Respuesta practica 
+- 1.- Como primer paso nos ubicamos en fork y le damos un clik
+- 2.- se nos desplegara un ventana en la cual debemos pulsar el boton verde que nos aprace ahi
+- 3.- Luego de esto el repositorio se no clonara en nuestra cuenta de git hub 
+- 4.- Una ves que estamos en nuestra cuenta no ubicamos en code y le damos a https o ssh
+![alt text](image.png) 
+luego copiamos el urle que no da
+- 5.- luego vamos a git bas y ponemos git clone y el url que copiamos y se nos clonara el repositorio remoto a local 
+![alt text](image-1.png) 
 ---
 
 ## Pregunta 2 (1 punto)
@@ -58,6 +68,41 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+- Creamos el archivo .gitignore.
+
+![alt text](image-2.png)
+
+- Mandamos a preparacion el archivo gitignore
+
+![alt text](image-7.png)
+
+- Realizamos el primer commit
+
+![alt text](image-8.png)
+
+- creamos los archivos .log y la carpeta temp
+
+![alt text](image-3.png)
+
+- Verificamos que los archivos aun no se esten ignorando con git status
+
+![alt text](image-4.png)
+
+- luego ingresamos al archivo de git ignore y escribimos los nombre de los archivos a ignorar 
+
+![alt text](image-5.png)
+
+-verificamos si los archivos se estan ignorando correctamente con un git estaus 
+
+!![alt text](image-9.png)
+
+- Realizamos el commit
+
+![alt text](image-10.png)
+
+- verificamos con git log los commits
+
+![alt text](image-11.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
@@ -88,6 +133,41 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+
+- inicializamos el git flow 
+
+![alt text](image-12.png)
+
+- Le damos a comenzar la rama de feature con start
+
+![alt text](image-14.png)
+
+- Añado los datos de el estudiante 
+
+![alt text](image-13.png)
+
+- Realizamos el commit 
+
+![alt text](image-15.png)
+
+- Le realizamos la finalizacion del feature
+
+![alt text](image-16.png)
+
+- verificacion de los commits
+
+![alt text](image-17.png)
+
+- Añadido el tag al ultimo comit realizado 
+
+![alt text](image-18.png)
+
+
+- VENTAJAS DEL GIT FLOW
+
+NOs ayuda con los nombre de las ramas para asignarce automaticamente y al momento de eliminar la rama de feature se procede con el git flow a realizar un merge de la rama featurea al develop correspindiente y se realiza el comit automatica mente como se ve en la imagen de ariiba
+
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
@@ -122,8 +202,23 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- que es un issue 
 
+Un issue es una herramienta que permite reportar errores, proponer mejoras o discutir temas dentro de un proyecto. Sirve para la gestión de tareas y comunicación entre los colaboradores de un repositorio.
+
+- que es un pull request
+
+Un pull request (PR) es una solicitud para que los cambios realizados en una rama (por ejemplo, develop) sean revisados y fusionados con otra rama (por ejemplo, main). Su finalidad es permitir la revisión de código, discusión y control de calidad antes de aceptar cambios en el repositorio principal.
+
+- Diferencia y relación entre ambos:
+
+Un issue plantea una necesidad o problema, mientras que un pull request entrega una solución concreta. En un entorno colaborativo, los issues permiten asignar tareas, y los pull requests permiten cumplirlas y relacionarlas directamente con los issues, asegurando trazabilidad y control.
+
+- RESPUESTA DE LA PRACTICA
+- Un resumen del procedimiento realizado.
+- El número del issue creado.
+- El enlace al pull request.
+- Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 ---
 
 ## Pregunta 5 (2 puntos)
